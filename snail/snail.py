@@ -1,3 +1,9 @@
+'''
+     ──┐
+p -> │p│
+     └─┘
+'''
+
 def p(array, minRow, maxRow, minCol, maxCol, result):
     if minRow > maxRow and minCol > maxCol:
         return
