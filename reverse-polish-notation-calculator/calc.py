@@ -1,5 +1,5 @@
 def calc(expr):
-    # TODO: Your awesome code here
+    # Your awesome code here
     s = []
     for c in expr.split():
         s.append(c)
