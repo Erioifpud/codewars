@@ -51,7 +51,7 @@ def boolfuck(code, input=""):
             i = bracketPos[i] if mem[ptr] == 1 else i
         i += 1
 
-    res = list(map(''.join, zip( * [iter(out)] * 8)))
+    res = list(map(''.join, zip(*[iter(out)] * 8)))
     left = len(out) % 8
     if left != 0:
         res.append(out[-left:] + '0' * (8 - len(out[-left:])))
